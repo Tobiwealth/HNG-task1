@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
     currentDayOfTheWeek.textContent = new Date().toLocaleDateString('en-US', { weekday: 'long' });
     currentUTCTime.textContent = Date.now();
     myTrack.textContent = "Frontend";
-    githubURL.href = "https://github.com/Tobiwealth";
+    githubURL.href = "https://github.com/Tobiwealth/HNG-task1";
     githubURL.textContent = "GitHub Repository";
 });
